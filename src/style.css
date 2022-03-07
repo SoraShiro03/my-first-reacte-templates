@@ -1,0 +1,26 @@
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em;
+    padding: 5% ;
+    
+}
+
+.card {
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12.5px;
+    padding: 5%;
+}
+.card img {
+    max-width: 240px;
+    border-radius: 12.5px;
+}
+.card .my-link {
+    background-color: deepskyblue;
+    padding: 2%;
+    border-radius: 9.5px;
+    text-decoration: none;
+    color: aqua;
+}
