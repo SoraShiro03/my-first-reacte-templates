@@ -1,12 +1,17 @@
 import React from "react";
 import "../style.css"
-import Shiro from "../images/shiro.jpg"
-export default function Card() {
+
+export default function Card(props) {
+
     return (
         <div className="card">
-            <img src={Shiro}></img>
+            <div className="card--image">
+                <h2>Online</h2>
+                <img src={props.image}></img>
+            </div>
+            <h1>{props.name}</h1>
             <p>
-                we want no game no life season 2
+                {props.description}
             </p>
             <a className="my-link" href="#">Read More</a>
         </div>

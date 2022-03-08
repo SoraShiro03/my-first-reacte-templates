@@ -1,3 +1,20 @@
+.navbar {
+    
+}
+.navbar--logo {
+    display: flex;
+    color: dodgerblue;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+}
+.navbar--logo img {
+    border-radius: 12.5px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+
 .card-group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -6,13 +23,20 @@
     padding: 5% ;
     
 }
-
+.card--image > h2 {
+    position:absolute;
+    
+    background-color: cornflowerblue;
+    border-radius: 7.5px;
+}
 .card {
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 12.5px;
     padding: 5%;
+    
 }
+
 .card img {
     max-width: 240px;
     border-radius: 12.5px;
