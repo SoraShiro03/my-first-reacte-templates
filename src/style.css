@@ -68,3 +68,23 @@
 .myState > h1:hover {
     background-color: darkcyan;
 }
+
+.things {
+    align-items: center;
+}
+.things--button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    
+}
+.things--button > button {
+    border: 3px solid aquamarine;
+    background-color: white;
+    padding: 10px;
+    border-radius: 19.5px;
+}
+.things--button > button:hover {
+    background-color: aquamarine;
+}

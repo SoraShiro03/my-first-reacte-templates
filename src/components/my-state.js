@@ -4,13 +4,19 @@ export default function MyState() {
     const [current, changeState] = React.useState(0)
     console.log(current, changeState)
 
+    // function Increment() {
+    //     changeState(current + 1)
+    // }
+    // function Decrement() {
+    //     changeState(current - 1)
+    // }
+
+    //best pratice
     function Increment() {
-        changeState(current + 1)
-
+        changeState(prevState => prevState + 1)
     }
-
     function Decrement() {
-        changeState(current - 1)
+        changeState(prevState => prevState - 1)
     }
 
     return (
