@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function MyState() {
     const [current, changeState] = React.useState(0)
     console.log(current, changeState)
@@ -29,3 +30,4 @@ export default function MyState() {
         </div>
     )
 }
+
