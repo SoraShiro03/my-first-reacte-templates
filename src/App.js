@@ -5,14 +5,18 @@ import MyState from './components/my-state';
 import Things from './components/things';
 import RandomImage from './components/randomImage';
 import BoxGroup from './components/box-group';
+import MainForm from './components/forms';
 
 import './App.css';
+import RegisterForm from './components/register';
 
 
 export default function App() {
   return (
     <div>
       <Navbar />
+      <RegisterForm />
+      <MainForm />
       <BoxGroup />
       <CardGroup />
       <MyState />

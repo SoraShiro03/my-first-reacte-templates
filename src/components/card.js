@@ -5,6 +5,7 @@ export default function Card(props) {
 
     return (
         <div className="card">
+
             <div className="card--image">
                 <h2>Online</h2>
                 <img src={props.image}></img>
@@ -14,6 +15,7 @@ export default function Card(props) {
                 {props.description}
             </p>
             <a className="my-link" href="#">Read More</a>
+
         </div>
     )
 }
