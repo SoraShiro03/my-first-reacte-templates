@@ -9,12 +9,14 @@ import MainForm from './components/forms';
 
 import './App.css';
 import RegisterForm from './components/register';
+import PraticeEffect from './components/praticeEffect';
 
 
 export default function App() {
   return (
     <div>
       <Navbar />
+      <PraticeEffect />
       <RegisterForm />
       <MainForm />
       <BoxGroup />

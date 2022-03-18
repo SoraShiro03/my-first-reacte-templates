@@ -136,3 +136,14 @@
     flex-direction: column;
     gap: 1rem;
 }
+
+.pratice--container {
+    
+}
+.pratice--container > div {
+    
+
+}
+.pratice--container > div:hover {
+    
+}
