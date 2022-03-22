@@ -11,6 +11,7 @@ import './App.css';
 import RegisterForm from './components/register';
 import PraticeEffect from './components/praticeEffect';
 import WindowTracker from './components/windowTracker';
+import DiceApp from './components/diceApp';
 
 
 export default function App() {
@@ -23,14 +24,15 @@ export default function App() {
   //console.log(windowResizeValue, show)
   return (
     <div>
-      <Navbar />
+      <DiceApp />
+      {/* <Navbar />
       <button onClick={toggle}>Show
         {show && <WindowTracker
           name="windowTracker"
           show={show}
         />}
       </button>
-      {/* <PraticeEffect />
+      <PraticeEffect />
       <RegisterForm />
       <MainForm />
       <BoxGroup />

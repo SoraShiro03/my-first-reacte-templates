@@ -1,3 +1,7 @@
+* {
+    
+}
+
 .navbar {
     
 }
@@ -37,7 +41,7 @@
     display: flex;
     flex-direction: column;   
     flex: 1 1 auto;
-    background-color: aqua;
+    
 }
 
 
@@ -146,4 +150,51 @@
 }
 .pratice--container > div:hover {
     
+}
+
+main {
+    background-color: darkslategrey;
+    padding: 20px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dice--container {
+    padding: 100px;
+    
+    gap: 1rem;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    justify-content: center;
+    align-content: center;
+    border-radius: 12.5px;
+    background-color: white;
+    max-width: 400px;
+
+}
+.dice {
+
+    text-align: center;
+    border-radius: 12.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+button {
+   background-color: aquamarine;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 5.5px;
+   padding: 10px 20px 10px 20px;
+   
+}
+button:hover {
+    background-color: aqua;
+}
+button:focus {
+    outline: none;
 }
